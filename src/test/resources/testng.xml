@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Suite"  >
+<listeners>
+    <listener class-name="com.qa.hubspot.listeners.ExtentReport"></listener>
+    </listeners>
+    <test name="contact test" >
+    
+    
+        <classes>
+            <class name="com.qa.hubspot.tests.ContactsTest">
+            </class>
+        </classes>
+   
+    </test> <!-- Second Test -->
+</suite> <!-- Suite -->
